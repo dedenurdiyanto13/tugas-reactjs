@@ -1,0 +1,148 @@
+$blue: #2196f3;
+$red: #d13f5e;
+
+.masthead .masthead-heading {
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+}
+
+.btn {
+  border: 2px solid white;
+  background-color: #1abc9c;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-info {
+  border-color: $blue;
+  color: dodgerblue;
+
+  &:hover {
+    background: $blue;
+    color: white;
+  }
+}
+
+.btn-xl {
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
+}
+
+.ms-auto {
+  margin-left: auto !important;
+
+  .lead {
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+}
+
+.me-auto {
+  margin-right: auto !important;
+
+  .lead {
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+}
+
+.form-floating {
+  position: relative;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0.125rem solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.5rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.btn-outline-light {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-outline-light:hover {
+  color: #000;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-check:focus + .btn-outline-light,
+.btn-outline-light:focus {
+  box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5);
+}
+.btn-check:checked + .btn-outline-light,
+.btn-check:active + .btn-outline-light,
+.btn-outline-light:active,
+.btn-outline-light.active,
+.btn-outline-light.dropdown-toggle.show {
+  color: #000;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-check:checked + .btn-outline-light:focus,
+.btn-check:active + .btn-outline-light:focus,
+.btn-outline-light:active:focus,
+.btn-outline-light.active:focus,
+.btn-outline-light.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5);
+}
+.btn-outline-light:disabled,
+.btn-outline-light.disabled {
+  color: #f8f9fa;
+  background-color: transparent;
+}
+
+.btn-social {
+  border-radius: 200%;
+  display: inline-flex;
+  width: 3.5rem;
+  height: 3.5rem;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-sosmed {
+  border: 2px solid white;
+  background-color: #2c3e50;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.mx-1 {
+  margin-right: 0.25rem !important;
+  margin-left: 0.25rem !important;
+}
+
+.copyright {
+  background-color: #1a252f;
+}
+
+.py-4 {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
